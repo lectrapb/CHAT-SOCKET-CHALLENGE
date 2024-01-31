@@ -37,7 +37,7 @@ These commands allow deploy the main components of the project:
 1. **Enable all components** 
 + docker-compose up -d <br>
 2. **Disable all components** 
-+ docker-compose up -d influxdb  mocksserver goty-front grafana <br>
++ docker-compose down <br>
 5. **Show Web Page**
 + http://localhost:4200<br>
  
